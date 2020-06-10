@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	background-color: #fff;
+	font-family: 'Georgia',sans-serif;
+	font-weight: 400;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background: #fff;
+}
+header::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+.logo{
+	float: left;
+	padding: 5px 0;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 65px;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	position: relative;
+
+}
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Georgia';
+}
+nav a:hover{
+	color: #000;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+nav a::hover::before {
+	width: 100%;
+}
+.text{
+text-align: center;
+}
+.numtext{
+	text-align: center;
+	margin-left: 90px;
+	      margin-top: 30px;
+	background-color: #dacccc;
+	width: 500px;
+	height: 390px;
+}
+
+.block{ display: flex;
+
+}
+.numrtext{
+	text-align: center;
+	margin-left: 240px;
+	margin-top: 250px;
+	background-color: #dacccc;
+	width: 500px;
+	height: 400px;
+
+}
+#photoes{
+	width: 500px;
+	height: 300px;
+}
+.numrrtext{
+	text-align: center;
+	margin-left: 90px;
+	margin-top: -80px;
+	background-color: #dacccc;
+	width: 500px;
+	height: 420px;
+}
+.numrrrtext{
+	text-align: center;
+	margin-left: 240px;
+	margin-top: 200px;
+	background-color: #dacccc;
+	width: 500px;
+	height: 400px;
+}
+.block1{ display: flex;
+
+}
+.clasa6{ background-color: #D8DDDD;
+	display: flex;
+	position: relative;
+	
+         }
+.clasa2{
+	width: 200px;
+	margin-left: 220px;	
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 11px}
+  #sectiune{display: block;
+            margin-left: -100px;}
+            #sec1{
+            	display: block;
+            	margin-left:-100px;
+            	width: 120px;
+            }
+            #sec8{
+            	margin-left: 90px;
+            	margin-top: -40px;
+            	
+
+            }
+            #sec9{
+            	margin-left: -10px;
+            	margin-top: -40px;
+            }
+            #sec10{
+            	margin-left: -500px;
+            	margin-top: 379px;
+            }
+}
